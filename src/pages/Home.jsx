@@ -1,3 +1,4 @@
+import Loader from "../components/Loader"
 import MainLayout from "../layout/MainLayout"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
                     Salman Fikri
                 </p>
             </div>
+                {/* <Loader /> */}
         </MainLayout>
   )
 }
